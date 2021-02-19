@@ -5,7 +5,7 @@
 
 # Reaqtive Creative Assets
 
-This repository contains creative assets for [Reaqtor, Reaqtive & Nuqleon](https://github.com/reaqtive/reaqtor), including logos, social media assets, PowerPoint templates and a range of branded backgrounds, which can be used by the community for blogging, presentations, talks etc to help spread the word about, and increase adotpion of Reaqtor. 
+This repository contains creative assets for [Reaqtor, Reaqtive & Nuqleon](https://github.com/reaqtive/reaqtor), including logos, social media assets, PowerPoint templates and a range of branded backgrounds, which can be used by the community for blogging, presentations, talks etc to help spread the word about, and increase adoption of Reaqtor. 
 
 ## License
 
