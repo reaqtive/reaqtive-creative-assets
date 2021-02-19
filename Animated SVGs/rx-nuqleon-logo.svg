@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 960"
+  style="background: #222">
+  <style type="text/css">
+    .logo {
+      fill: white;
+    }
+
+    .c {
+      stroke: url(#rg-orange);
+      fill: none;
+      stroke-width: 30;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+
+    .c-0 {
+      stroke-dasharray: 27, 180, 90, 90;
+    }
+
+    .c-1 {
+      stroke-dasharray: 18, 50, 45, 81;
+    }
+
+    .c-2 {
+      stroke-dasharray: 90, 162, 144, 180, 90;
+    }
+
+    .c-3 {
+      stroke-dasharray: 71, 150, 241, 100, 268;
+    }
+
+    .c-4 {
+      stroke-dasharray: 68, 60, 189, 180, 90;
+    }
+
+    .c-5 {
+      stroke-dasharray: 77, 93, 96;
+    }
+
+    .c-6 {
+      stroke-dasharray: 36, 109, 117, 81, 189;
+    }
+
+    .c-7 {
+      stroke-dasharray: 60, 200, 40;
+    }
+
+    .c--long-1 {
+      stroke-dasharray: 300, 150, 400, 200;
+    }
+
+    .c--long-2 {
+      stroke-dasharray: 250, 150, 300, 120;
+    }
+
+    .c--long-3 {
+      stroke-dasharray: 50, 80, 80, 50;
+    }
+
+    .c.c--orange {
+      stroke: url(#rg-orange);
+    }
+
+    .c.c--blue {
+      stroke: url(#rg-blue);
+    }
+
+    .c.c--white {
+      stroke: url(#rg-white);
+    }
+
+    .c.c--purple {
+      stroke: url(#rg-purple);
+    }
+
+    .c--20 {
+      opacity: .1;
+    }
+
+    .c--40 {
+      opacity: .3;
+    }
+
+    .c--60 {
+      opacity: .6;
+    }
+
+    .c--80 {
+      opacity: .8;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+  </style>
+
+
+  <linearGradient id="rg-blue">
+    <stop offset="0%" stop-color="#6381FF" />
+    <stop offset="100%" stop-color="#20F4C6" />
+  </linearGradient>
+
+  <linearGradient id="rg-orange">
+    <stop offset="0%" stop-color="#F07F05" />
+    <stop offset="100%" stop-color="#E9D11A" />
+  </linearGradient>
+
+  <linearGradient id="rg-purple">
+    <stop offset="0%" stop-color="#502C85" />
+    <stop offset="100%" stop-color="#E22786" />
+  </linearGradient>
+
+  <linearGradient id="rg-white">
+    <stop offset="0%" stop-color="#888" />
+    <stop offset="100%" stop-color="#eee" />
+  </linearGradient>
+
+  <g transform="translate(800 600)" class="wrapper">
+
+    <circle id="circ-2" cx="0" cy="0" r="200" class="c c-6 c--20">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="45s"
+        repeatCount="indefinite" />
+    </circle>
+
+    <circle id="circ-3" cx="0" cy="0" r="250" class="c c-5 c--40 c--white">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="30s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-4" cx="0" cy="0" r="300" class="c c-4 c--60">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="59s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-5" cx="0" cy="0" r="350" class="c c-7 c--80 c--white">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="78s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-6" cx="0" cy="0" r="400" class="c c-0">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="93s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-7" cx="0" cy="0" r="450" class="c c-0">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="97s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-0" cx="0" cy="0" r="500" class="c c-4">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="83s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-1" cx="0" cy="0" r="550" class="c c-6 c--blue">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="65s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-2" cx="0" cy="0" r="600" class="c c-3">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="55s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-3" cx="0" cy="0" r="650" class="c c-1">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="72s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-4" cx="0" cy="0" r="700" class="c c-2 c--80 c--purple">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="45s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-5" cx="0" cy="0" r="750" class="c c-6 c--60 c--long-3 c--white">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="99s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-6" cx="0" cy="0" r="800" class="c c-7 c--40 c--long-2 c--purple">
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="52s"
+        repeatCount="indefinite" />
+    </circle>
+    <circle id="circ-7" cx="0" cy="0" r="850" class="c c-0 c--20 c--long-1">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="80s"
+        repeatCount="indefinite" />
+    </circle>
+
+
+  </g>
+
+  <g transform="translate(60 460)">
+
+    <path class="logo" d="M366.1,94.5H400v23.2h-64.2V8.6h30.3V94.5z M435.9,32.9v17.8h34.8v23.1h-34.8v19.7h39.5v24.3h-69.8V8.6h69.8
+	v24.3H435.9z M505.2,111.6c-8.6-4.8-15.4-11.5-20.4-20c-5-8.5-7.5-18.1-7.5-28.9c0-10.7,2.5-20.4,7.5-28.9
+	c5-8.5,11.8-15.1,20.4-19.9c8.6-4.7,18-7.1,28.2-7.1c10.3,0,19.7,2.4,28.3,7.1c8.5,4.7,15.2,11.4,20.2,19.9c5,8.5,7.4,18.1,7.4,28.9
+	c0,10.7-2.5,20.4-7.4,28.9c-5,8.5-11.7,15.2-20.3,20c-8.6,4.8-18,7.2-28.2,7.2S513.8,116.4,505.2,111.6z M551.7,83
+	c4.5-5.1,6.7-11.8,6.7-20.3c0-8.7-2.2-15.5-6.7-20.5c-4.5-5-10.6-7.5-18.3-7.5c-7.8,0-14,2.5-18.4,7.5c-4.4,5-6.7,11.8-6.7,20.5
+	c0,8.6,2.2,15.4,6.7,20.4c4.4,5,10.6,7.5,18.4,7.5C541.1,90.6,547.2,88.1,551.7,83z M694.7,117.7h-30.3l-40.4-61v61h-30.3V8.6h30.3
+	l40.4,61.8V8.6h30.3V117.7z M101.1,117.7H70.7l-40.4-61v61H0V8.6h30.3l40.4,61.8V8.6h30.3V117.7z M138.9,8.6v63.3
+	c0,5.9,1.4,10.4,4.1,13.6c2.7,3.2,6.9,4.8,12.5,4.8s9.8-1.6,12.6-4.9c2.8-3.3,4.3-7.8,4.3-13.5V8.6h30.3v63.3
+	c0,10-2.1,18.6-6.3,25.6c-4.2,7.1-10,12.4-17.3,15.9c-7.3,3.6-15.4,5.3-24.2,5.3c-8.9,0-16.8-1.8-23.8-5.3
+	c-7-3.6-12.4-8.8-16.4-15.9c-4-7-6-15.6-6-25.7V8.6H138.9z M325.5,96.5l-4.1-4.1c2.6-4.5,4.7-9.5,6.1-14.7
+	c4.3-15.9,2.2-32.5-5.9-46.7c-8.1-14.3-21.4-24.5-37.2-28.8c-32.7-8.9-66.6,10.4-75.6,43.1c-4.3,15.9-2.2,32.4,5.9,46.7
+	c8.1,14.3,21.4,24.5,37.2,28.9c5.4,1.5,10.9,2.2,16.3,2.2c9.2,0,18.2-2.1,26.6-6.1l-25.4-25.4c-3.1,0.1-6.2-0.2-9.2-1
+	c-7.7-2.1-14.2-7.1-18.2-14.1c-4-7-5-15.1-2.9-22.8c3.6-13.3,15.8-22.1,29-22.1c2.6,0,5.3,0.3,7.9,1.1c7.7,2.1,14.2,7.1,18.2,14.1
+	c3.8,6.6,4.9,14.3,3.2,21.7L279,50c-6.2-6.2-16.1-6.2-22.3,0c-6.2,6.2-6.2,16.1,0,22.3l46.5,46.5c3.1,3.1,7.1,4.6,11.1,4.6
+	s8.1-1.5,11.1-4.6C331.6,112.6,331.6,102.7,325.5,96.5z M221,42.4c1.1-2.7,2.4-5.3,3.9-7.7c1.4-2.2,4.3-2.9,6.5-1.5
+	c2.2,1.4,2.9,4.3,1.5,6.5c-1.2,2-2.3,4.1-3.2,6.3c-0.8,2-2.9,3.2-5,2.9c-0.4-0.1-0.8-0.2-1.1-0.3C221.2,47.5,220.1,44.8,221,42.4z
+	 M258.4,106.7c0.3-2.6,2.6-4.5,5.2-4.2c2.3,0.3,4.7,0.3,7.1,0.2c2.6-0.2,4.8,1.8,5,4.4c0.2,2.6-1.8,4.8-4.4,5
+	c-2.9,0.2-5.8,0.1-8.7-0.2c0,0-0.1,0-0.1,0C259.9,111.6,258.1,109.3,258.4,106.7z M251.3,99.2c2.4,1.1,3.5,3.9,2.4,6.2
+	c-0.9,2-2.9,3-5,2.8c-0.4-0.1-0.9-0.2-1.3-0.4c-10.6-4.7-19.4-13-24.6-23.4c-2.7-5.2-4.4-10.8-5.1-16.6c-0.3-2.6,1.5-5,4.1-5.3
+	c2.6-0.3,5,1.5,5.3,4.1c0.6,4.7,2,9.3,4.2,13.5C235.6,88.7,242.7,95.4,251.3,99.2z M319,60.1c0.1,2.7-0.1,5.5-0.5,8.2
+	c0,0.2,0,0.3-0.1,0.5c-0.4,2.6-2.8,4.3-5.3,4c0,0,0,0,0,0c-2.6-0.4-4.4-2.8-4-5.4l0.1-0.4c0.3-2.2,0.4-4.4,0.4-6.7
+	c-0.1-2.6,2-4.8,4.6-4.8C316.7,55.4,318.9,57.5,319,60.1z M255.9,21.9c-2.2,0.7-4.4,1.6-6.5,2.7c-0.9,0.5-1.9,0.6-2.8,0.5
+	c-1.5-0.2-2.8-1.1-3.6-2.5c-1.2-2.3-0.3-5.2,2.1-6.4c2.6-1.3,5.3-2.4,8-3.3c2.5-0.8,5.1,0.6,5.9,3.1
+	C259.8,18.5,258.4,21.1,255.9,21.9z M273.7,20.4c-1.7-0.2-3.5-0.4-5.3-0.4c-2.6,0-4.7-2.2-4.7-4.8c0-2.6,2.2-4.7,4.8-4.7
+	c2.2,0,4.3,0.2,6.5,0.5c15.4,2.1,28.8,11,36.8,24.3c1.3,2.2,0.6,5.1-1.6,6.5c-1,0.6-2,0.8-3.1,0.6c-1.4-0.2-2.7-1-3.4-2.3
+	C297.2,29.4,286.3,22.2,273.7,20.4z M276.8,70.1c-0.9,0.9-2.1,1.4-3.3,1.4c-1.2,0-2.4-0.5-3.3-1.4l-5.6-5.6c-1.8-1.8-1.8-4.8,0-6.7
+	c1.8-1.8,4.8-1.8,6.7,0l5.6,5.6C278.6,65.2,278.6,68.2,276.8,70.1z M317.7,111c-0.9,0.9-2.1,1.4-3.3,1.4c-1.2,0-2.4-0.5-3.3-1.4
+	l-30.9-30.9c-1.8-1.8-1.8-4.8,0-6.7c1.8-1.8,4.8-1.8,6.7,0l30.9,30.9C319.5,106.1,319.5,109.1,317.7,111z" />
+
+  </g>
+
+
+</svg>
