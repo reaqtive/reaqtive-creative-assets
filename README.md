@@ -9,4 +9,4 @@ This repository contains creative assets for [Reaqtor, Reaqtive & Nuqleon](https
 
 ## License
 
-All these creative assets are available under a [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
+All these creative assets are available under a [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by/4.0/) license. With ❤ from [endjin](https://endjin.com)
